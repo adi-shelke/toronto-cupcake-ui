@@ -125,6 +125,16 @@ body {
   background-color: #5a5959;
 }
 
+.cupcake-wrapper{
+  padding-top: 2rem;
+  background: linear-gradient(
+    25deg,
+    #000000 5%,
+    rgb(212, 20, 212) 33%,
+    rgb(255, 255, 255) 80%,
+    rgb(0, 255, 251) 95%
+  );
+}
 
 /* **********************Background*************** */
 :root {
@@ -133,13 +143,7 @@ body {
   font-family: poppins;
 }
 .nav-wrapper{
-  background: linear-gradient(
-    43deg,
-    #F875AA 0%,
-    #FFDFDF 33%,
-    #a31616 66%,
-    #F875AA 100%
-  );
+  background: #f6a6c1
 }
 /* *********************************************** */
 
@@ -250,6 +254,23 @@ body {
    -webkit-transition:  box-shadow .6s ease-in;
 }
 
+.s-handles{
+  transition-duration: 1s;
+  transition-property: all;
+  display: none;
+}
+.main:hover .s-handles{
+  display: flex;
+ 
+}
+.main-th:hover .s-handles{
+  display: flex;
+ 
+}
+.main-domain:hover .s-handles{
+  display: flex;
+ 
+}
 .main-th{
   transition-duration: 1s;
   transition-property: all;

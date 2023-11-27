@@ -35,7 +35,7 @@ const Nav = ({ toggle, settoggle }) => {
           <Link href="/occasions" className="mx-[3rem] nav-link">
             Occasions
           </Link>
-          <Link href="#about" className="mx-[3rem] nav-link">
+          <Link href="cupcakes" className="mx-[3rem] nav-link">
             Cupcakes
           </Link>
           <Link href="#contact" className="mx-[3rem] nav-link">
