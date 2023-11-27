@@ -1,8 +1,12 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { TfiMenuAlt } from "react-icons/tfi";
-import { TfiYoutube } from "react-icons/tfi";
+
+const options = [
+    'one', 'two', 'three'
+  ];
 const Nav = ({ toggle, settoggle }) => {
   const handleClick = () => {
     if (!toggle) {
@@ -16,7 +20,7 @@ const Nav = ({ toggle, settoggle }) => {
     <div id="home" className=" nav-wrapper flex justify-center items-center sticky top-0">
       <Link href="/">
       <div className="flex items-center h-full yt-logo">
-      <TfiYoutube className="text-[40px] text-red-700"/>
+      <Image src="/assets/images/logo.png" width={50} height={50}/>
       </div>
       </Link>
       
@@ -25,17 +29,17 @@ const Nav = ({ toggle, settoggle }) => {
           <Link href="/" className="mx-[3rem] nav-link">
             Home
           </Link>
-          {/* <Link href="/#event-section" className="mx-[3rem] nav-link">
-            Events
-          </Link> */}
-          <Link href="/team" className="mx-[3rem] nav-link">
-            Team
-          </Link>
-          <Link href="#about" className="mx-[3rem] nav-link">
+          <Link href="/#event-section" className="mx-[3rem] nav-link">
             About
           </Link>
+          <Link href="/team" className="mx-[3rem] nav-link">
+            Occassions
+          </Link>
+          <Link href="#about" className="mx-[3rem] nav-link">
+            Cupcakes
+          </Link>
           <Link href="#contact" className="mx-[3rem] nav-link">
-            Contact
+            Contact Us
           </Link>
         </div>
         <div
