@@ -41,6 +41,9 @@ const Nav = ({ toggle, settoggle }) => {
           <Link href="/contact" className="mx-[3rem] nav-link">
             Contact Us
           </Link>
+          <Link href="/cart" className="mx-[3rem] nav-link">
+            <img src="/assets/images/shopping-cart.png" className="inline" alt="" width="40px" height="40px"/>
+          </Link>
         </div>
         <div
           className="flex justify-center items-center text-white menu-icon hidden"
