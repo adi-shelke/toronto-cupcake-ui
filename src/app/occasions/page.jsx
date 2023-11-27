@@ -53,7 +53,7 @@ const page = () => {
           <span className="cursor-pointer text-[20px]">Custom</span>
         </div>
       </div>
-      <div className="flex">{custom ? <OffTheShelf /> : <Custom />}</div>
+      <div className="flex">{custom ? <Custom /> : <OffTheShelf />}</div>
     </div>
   );
 };
