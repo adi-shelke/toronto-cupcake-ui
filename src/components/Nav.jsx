@@ -32,7 +32,7 @@ const Nav = ({ toggle, settoggle }) => {
           <Link href="/#event-section" className="mx-[3rem] nav-link">
             About
           </Link>
-          <Link href="/team" className="mx-[3rem] nav-link">
+          <Link href="/occasions" className="mx-[3rem] nav-link">
             Occasions
           </Link>
           <Link href="#about" className="mx-[3rem] nav-link">

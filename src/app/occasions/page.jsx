@@ -2,7 +2,12 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>occasions</div>
+    <div>
+        occasions
+        <div>
+        A celebration of life, love, and all of life's memorable events
+        </div>
+    </div>
   )
 }
 
