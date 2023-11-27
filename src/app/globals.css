@@ -71,7 +71,7 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #e7b86b;
   z-index: 4;
 }
 .hero-section{
@@ -94,7 +94,7 @@ body {
 }
 .footer {
   color: white;
-  background-color: #F875AA;
+  background-color: #967357;
 }
 .footer-logo {
   height: 80% !important;
@@ -139,23 +139,17 @@ body {
 
 .cupcake-wrapper{
   padding-top: 2rem;
-  background: linear-gradient(
-    25deg,
-    #000000 5%,
-    rgb(212, 20, 212) 33%,
-    rgb(255, 255, 255) 80%,
-    rgb(0, 255, 251) 95%
-  );
+  background: #f5e0bf
 }
 
 /* **********************Background*************** */
 :root {
-  background-color: #FFF6F6;
+  background: #f5e0bf;
   
   font-family: poppins;
 }
 .nav-wrapper{
-  background: #f6a6c1
+  background: #967357
 }
 /* *********************************************** */
 
@@ -221,7 +215,7 @@ body {
 }
 
 .contact__option {
-  background: var(--color-bg-variant);
+  /* background: var(--color-bg-variant); */
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -257,7 +251,7 @@ body {
 }
 
 .contact__option {
-  background: var(--color-bg-variant);
+  /* background: var(--color-bg-variant); */
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -265,7 +259,7 @@ body {
   transition: var(--transition);
 }
 .contact__option:hover {
-  background: #17bca0;
+  background: #e7b86b;
 
   border-color: var(--color-primary-variant);
 }
@@ -383,7 +377,7 @@ textarea {
   object-fit: cover;
 }
 .main:hover{
-  background-color: #AEDEFC;
+  background-color: #e7b86b;
   border-radius: 3rem;
   box-shadow: 0px 0px 40px #F875AA;
    -webkit-transition:  box-shadow .6s ease-in;

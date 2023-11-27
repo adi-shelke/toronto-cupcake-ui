@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 const page = () => {
   return (
     <div className="cupcake-wrapper pt-[2rem]">
@@ -42,7 +42,7 @@ const page = () => {
         >
           {data[0].chocolate.map((card, index) => (
             <SwiperSlide className="flex justify-center" key={index}>
-              <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="main w-[300px] h-[300px] mt-[2rem] flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow  dark:border-gray-700 bg-[#623a09]">
                 <div className="pw flex flex-col items-center pb-10">
                   <Image
                     loading="lazy"
@@ -56,10 +56,14 @@ const page = () => {
                     {card.title}
                   </h5>
                   <div className="s-handles flex mt-4 space-x-3 md:mt-6 text-black">
-                    <div onClick={()=>{alert("Added to card")}}>
-                      <ShoppingCartIcon/>
+                    <div
+                      onClick={() => {
+                        alert("Added to card");
+                      }}
+                    >
+                      <ShoppingCartIcon />
                     </div>
-                
+
                     <span>${card.price}</span>
                   </div>
                 </div>
@@ -96,7 +100,7 @@ const page = () => {
         >
           {data[0].vanilla.map((card, index) => (
             <SwiperSlide className="flex justify-center" key={index}>
-              <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="main w-[300px] h-[300px] mt-[2rem]  flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:border-gray-700 bg-[#623a09]">
                 <div className="pw flex flex-col items-center pb-10">
                   <Image
                     loading="lazy"
@@ -110,8 +114,12 @@ const page = () => {
                     {card.title}
                   </h5>
                   <div className="s-handles flex mt-4 space-x-3 md:mt-6 text-black">
-                  <div onClick={()=>{alert("Added to card")}}>
-                      <ShoppingCartIcon/>
+                    <div
+                      onClick={() => {
+                        alert("Added to card");
+                      }}
+                    >
+                      <ShoppingCartIcon />
                     </div>
                     <span>${card.price}</span>
                   </div>
@@ -149,7 +157,7 @@ const page = () => {
         >
           {data[0].redvelvet.map((card, index) => (
             <SwiperSlide className="flex justify-center" key={index}>
-              <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="main w-[300px] h-[300px] mt-[2rem] flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow  dark:border-gray-700 bg-[#623a09]">
                 <div className="pw flex flex-col items-center pb-10">
                   <Image
                     loading="lazy"
@@ -163,8 +171,12 @@ const page = () => {
                     {card.title}
                   </h5>
                   <div className="s-handles flex mt-4 space-x-3 md:mt-6 text-black">
-                  <div onClick={()=>{alert("Added to card")}}>
-                      <ShoppingCartIcon/>
+                    <div
+                      onClick={() => {
+                        alert("Added to card");
+                      }}
+                    >
+                      <ShoppingCartIcon />
                     </div>
                     <span>${card.price}</span>
                   </div>
@@ -202,7 +214,7 @@ const page = () => {
         >
           {data[0].fudge.map((card, index) => (
             <SwiperSlide className="flex justify-center" key={index}>
-              <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="main w-[300px] h-[300px] mt-[2rem]  flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow  dark:border-gray-700 bg-[#623a09]">
                 <div className="pw flex flex-col items-center pb-10">
                   <Image
                     loading="lazy"
@@ -216,8 +228,12 @@ const page = () => {
                     {card.title}
                   </h5>
                   <div className="s-handles flex mt-4 space-x-3 md:mt-6 text-black">
-                  <div onClick={()=>{alert("Added to card")}}>
-                      <ShoppingCartIcon/>
+                    <div
+                      onClick={() => {
+                        alert("Added to card");
+                      }}
+                    >
+                      <ShoppingCartIcon />
                     </div>
                     <span>${card.price}</span>
                   </div>

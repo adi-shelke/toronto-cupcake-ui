@@ -16,20 +16,20 @@ const Footer = () => {
         <Image src="/assets/images/logo.png" width={100} height={100} color='white'/>
         </div>
         <div className='flex flex-col footer-block'>
-          <span className='underline decoration-[#e94343] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Quick Links</span>
+          <span className='underline decoration-[#623a09] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Quick Links</span>
           <div className='flex flex-col mt-[1rem] text-[20px] footer-item'>
 
             {/* <a href='/assets/rules.pdf'>
               <span className='footer-link'>Rule Book</span>
             </a> */}
             <a className='' href='/upload'>
-              <span className='footer-link hover:text-[#f44]'>Get Started!</span>
+              <span className='footer-link hover:text-[#e7b86b]'>Get Started!</span>
             </a>
           </div>
 
         </div>
         <div className='flex flex-col footer-block'>
-          <span className='underline decoration-[#e94343] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Social Handles</span>
+          <span className='underline decoration-[#623a09] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Social Handles</span>
           <div className='flex items-center mt-[1rem] footer-item flex justify-center'>
             <Link href="https://www.instagram.com/adi_shelke_07/" className='px-[0.5rem] text-[40px] footer-social-icons footer-insta'>
               <BsInstagram />
@@ -44,9 +44,9 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex flex-col items-center footer-block'>
-          <span className='underline decoration-[#e94343] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title '>Contact Us</span>
+          <span className='underline decoration-[#623a09] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title '>Contact Us</span>
           <span  className='mt-[1rem] footer-link'>
-          <a href="mailto:shelkeadinath3@gmail.com" className=' text-[20px] footer-item hover:text-[#f44]'>torontocakes@gmail.com</a>
+          <a href="mailto:shelkeadinath3@gmail.com" className=' text-[20px] footer-item hover:text-[#e7b86b]'>torontocakes@gmail.com</a>
           </span>
 
         </div>

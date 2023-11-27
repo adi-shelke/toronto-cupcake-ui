@@ -38,8 +38,8 @@ const Contact = () => {
     <section id="contact" className="mb-[2rem] flex flex-col justify-center items-center" >
       <h2 className="text-black mb-[2rem] my-[2rem] text-[30px] ">Contact Us</h2>
       <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
+        <div className="contact__options ">
+          <article className="contact__option bg-[#623a09]">
             <TfiEmail className="contact_icon" />
             <h4>Email</h4>
             <h5>shelkeadinath3@gmail.com</h5>
@@ -51,7 +51,7 @@ const Contact = () => {
               Send a mail
             </Link>
           </article>
-          <article className="contact__option">
+          <article className="contact__option bg-[#623a09]">
             <RiMessengerLine className="contact_icon" />
             <h4>Messenger</h4>
             <h5>Adinath Shelke</h5>
@@ -63,7 +63,7 @@ const Contact = () => {
               Send a message
             </Link>
           </article>
-          <article className="contact__option">
+          <article className="contact__option bg-[#623a09]">
             <BsWhatsapp className="contact_icon" />
             <h4>Whatsapp</h4>
             <h5>+917741934120</h5>
@@ -94,7 +94,7 @@ const Contact = () => {
             className="text-black"
             
           ></textarea>
-          <button type="submit" className="btn btn-primary bg-[#2c2c6c] hover:bg-[#17bca0] text-white font-bold py-2 px-4 rounded-full mt-[0.6rem]">
+          <button type="submit" className="btn btn-primary bg-[#623a09] hover:bg-[#e7b86b] text-white font-bold py-2 px-4 rounded-full mt-[0.6rem]">
             {sending ? "Sending..." : "Send Message"}
           </button>
         </form>
