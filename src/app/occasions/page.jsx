@@ -1,8 +1,10 @@
 "use client";
+import Custom from "@/components/Custom";
 import OffTheShelf from "@/components/OffTheShelf";
-import React from "react";
+import React, { useState } from "react";
 
 const page = () => {
+  const [custom, setcustom] = useState(false);
   return (
     <div className="w-[100%]">
       {/* ******************************************************************** */}
@@ -42,9 +44,16 @@ const page = () => {
         </div>
       </div>
       {/* **************************************************** */}
-      <div className="flex ">
-        <OffTheShelf />
+
+      <div className="toggleStates flex justify-center items-center text-black">
+        <div className="offshelf mx-[0.5rem]" onClick={()=>setcustom(!custom)}>
+          <span className="cursor-pointer">Off The Shelf</span>
+        </div>
+        <div className="custom mx-[0.5rem]"onClick={()=>setcustom(!custom)}>
+          <span className="cursor-pointer">Custom</span>
+        </div>
       </div>
+      <div className="flex ">{custom ? <OffTheShelf /> : <Custom />}</div>
     </div>
   );
 };
