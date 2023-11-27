@@ -1,9 +1,10 @@
+"use client";
 import OffTheShelf from "@/components/OffTheShelf";
 import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <div className="w-[100%]">
       {/* ******************************************************************** */}
       <div className="flex justify-center h-[90vh] items-center">
         <div className="flex flex-col justify-center items-center w-[30%]">
@@ -31,9 +32,13 @@ const page = () => {
           <span className="text-black">......................</span>
         </div>
         <div className="flex justify-center ">
-            <div className="image w-[60%] ">
-          <img src="/assets/images/wedding.webp" color="white" className="rounded-[30px]"/>
-            </div>
+          <div className="image w-[60%] ">
+            <img
+              src="/assets/images/wedding.webp"
+              color="white"
+              className="rounded-[30px]"
+            />
+          </div>
         </div>
       </div>
       {/* **************************************************** */}
