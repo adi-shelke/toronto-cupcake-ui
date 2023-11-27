@@ -45,15 +45,15 @@ const page = () => {
       </div>
       {/* **************************************************** */}
 
-      <div className="toggleStates flex justify-center items-center text-black">
-        <div className="offshelf mx-[0.5rem]" onClick={()=>setcustom(!custom)}>
-          <span className="cursor-pointer">Off The Shelf</span>
+      <div className="toggleStates flex justify-center items-center text-black  mb-[2rem]">
+        <div className={`offshelf mx-[0.5rem] ${!custom ? 'underline' : ''}`} onClick={()=>setcustom(!custom)}>
+          <span className="cursor-pointer text-[20px]">Off The Shelf</span>
         </div>
-        <div className="custom mx-[0.5rem]"onClick={()=>setcustom(!custom)}>
-          <span className="cursor-pointer">Custom</span>
+        <div className={`offshelf mx-[0.5rem] ${custom ? 'underline' : ''}`}onClick={()=>setcustom(!custom)}>
+          <span className="cursor-pointer text-[20px]">Custom</span>
         </div>
       </div>
-      <div className="flex ">{custom ? <OffTheShelf /> : <Custom />}</div>
+      <div className="flex">{custom ? <OffTheShelf /> : <Custom />}</div>
     </div>
   );
 };

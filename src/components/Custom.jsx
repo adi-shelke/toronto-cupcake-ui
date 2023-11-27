@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import CustomCards from "./CustomCards";
 const Custom = () => {
   return (
-    <div>Custom</div>
-  )
-}
+    <div>
+      <CustomCards />
+    </div>
+  );
+};
 
-export default Custom
+export default Custom;
