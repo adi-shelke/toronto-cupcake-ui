@@ -13,8 +13,8 @@
   background: linear-gradient(
     43deg,
     #ffffff 0%,
-    rgb(206, 20, 212) 33%,
-    rgb(206, 20, 212) 66%,
+    #e7b86b 33%,
+    #e7b86b 66%,
     #ffffff 100%
   );
   border-radius: 6px;
