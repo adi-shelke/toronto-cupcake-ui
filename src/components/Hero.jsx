@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -8,12 +10,17 @@ const Hero = () => {
              <span>Toronto Cupcakes</span>  <span>Crafting Sweet Memories, One Bite at a Time!</span>
             </div>
             <div className="explore-btn mt-[1rem]">
+                <Link href="/cupcakes">
                 <button className="bg-[#d441ed] hover:bg-[#f00] text-white font-bold py-2 px-4 rounded-full mt-[0.6rem]">
                     Explore Delicious Cup-Cakes!
                 </button>
+                </Link>
+                
             </div>
         </div>
-        <div className="hero-logo w-[50%]  h-[100%]"></div>
+        <div className="hero-logo w-[50%]  h-[100%] flex justify-center items-center">
+            <Image src="/assets/images/hero-giftboxwebp.webp" height={800} width={800}/>
+        </div>
     </div>
   )
 }
