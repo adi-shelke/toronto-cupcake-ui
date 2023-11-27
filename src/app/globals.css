@@ -30,9 +30,10 @@
   box-sizing: border-box;
 }
 :root {
-  --foreground-rgb: 0, 0, 0;
+  /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255; */
+  background-color: #FFF6F6;
 }
 html {
   scroll-behavior: smooth;
@@ -61,8 +62,8 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 4;
 }
-.hero-section {
-  height: 100%;
+.hero-section{
+  height: 90vh;
 }
 .hero-cta{
   height: calc(100vh - 10%);
@@ -81,7 +82,7 @@ body {
 }
 .footer {
   color: white;
-  background-color: rgba(29, 28, 28, 0.8);
+  background-color: #F875AA;
 }
 .footer-logo {
   height: 80% !important;
@@ -127,7 +128,7 @@ body {
 
 /* **********************Background*************** */
 :root {
-  background-color: rgb(0, 0, 0);
+  background-color: #FFF6F6;
   
   font-family: poppins;
 }
