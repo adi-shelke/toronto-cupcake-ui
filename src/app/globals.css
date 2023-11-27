@@ -196,6 +196,150 @@ body {
 
 
 
+
+.main:hover .s-handles{
+  display: flex;
+ 
+}
+.main-th:hover .s-handles{
+  display: flex;
+ 
+}
+.s-handles{
+  transition-duration: 1s;
+  transition-property: all;
+  display: none;
+}
+.pw{
+  transition-duration: 1s;
+  transition-property: all;
+}
+.main:hover .pw{
+  margin-top: -80px;
+  position: absolute;
+}
+.main:hover .title{
+  color: green;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.t-head{
+  padding-left: 0px;
+  margin-left: 51rem;
+  padding-bottom: 1rem;
+}
+.main{
+  transition-duration:1s ;
+  transition-property: all;
+  /* box-shadow: 0px 0px 0px rgb(44, 214, 22); */
+-webkit-transition:  box-shadow .2s ease-out;
+   /* box-shadow: .8px .9px 3px rgb(44, 223, 8); */
+
+}
+.main img{
+  object-fit: cover;
+}
+.main-th img{
+  object-fit: cover;
+}
+.main:hover{
+  background-color: #AEDEFC;
+  border-radius: 3rem;
+  box-shadow: 0px 0px 40px #F875AA;
+   -webkit-transition:  box-shadow .6s ease-in;
+}
+
+.main-th{
+  transition-duration: 1s;
+  transition-property: all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition:  box-shadow .2s ease-out;
+}
+.main-th:hover{
+  background-color: #F875AA;
+  border-radius: 3rem;
+  box-shadow: 0px 0px 40px rgb(205, 21, 211);
+  -webkit-transition:  box-shadow .6s ease-in;
+}
+
+.main-th:hover .pw{
+  margin-top: -80px;
+  position: absolute;
+}
+.main-th:hover .title{
+  color: green;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-th:hover .pos{
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+
+}
+
+/* domain */
+
+.main-domain:hover .title{
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+
+}
+
+
+.main-domain:hover .s-handles{
+  display: flex;
+ 
+}
+
+.main-domain{
+  transition-duration:1s ;
+  transition-property: all;
+  /* box-shadow: 0px 0px 0px rgb(44, 214, 22); */
+-webkit-transition:  box-shadow .2s ease-out;
+   /* box-shadow: .8px .9px 3px rgb(44, 223, 8); */
+
+}
+
+.pw{
+  transition-duration: 1s;
+  transition-property: all;
+}
+.main-domain:hover .pw{
+  margin-top: -80px;
+  position: absolute;
+}
+
+.main-domain img{
+  object-fit: cover;
+}
+.main-domain:hover{
+  background-color: rgb(255, 167, 252);
+  border-radius: 3rem;
+}
+
+/*  */
+
+.swiper {
+  z-index: 1;
+  width: 70% !important;
+}
+.swiper-slide{
+  display: flex !important;
+  padding-top: 35px;
+}
+.swiper{
+  /* width: 50% !important; */
+  /* margin-top: 3rem; */
+}
+
+
+
+
 /* for responsiveness */
 @media only screen and (max-width: 1600px) {
 
