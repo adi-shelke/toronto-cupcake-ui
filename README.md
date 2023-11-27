@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AryanP45/toronto-cupcake-ui/master/public/assets/images/logo.png">
+  <img src="https://raw.githubusercontent.com/AryanP45/toronto-cupcake-ui/master/public/assets/images/hero-giftboxwebp.webp">
 </p>
 
 
