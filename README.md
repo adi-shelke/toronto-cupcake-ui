@@ -24,6 +24,26 @@ The goal is to redesign the original website [Toronto Cupcakes](https://www.toro
 - Tailwind CSS
 
 <!-- #### **Visit the site : https://gfgviit.tech/** -->
+### **Snips**
+## Home
+<img src="./readme_snips/home.png"/>
+
+## About
+<img src="./readme_snips/about.png"/>
+
+## Occasions
+<img src="./readme_snips/occasions1.png"/>
+<img src="./readme_snips/occasions2.png"/>
+
+## Cupcakes
+<img src="./readme_snips/cupcakes.png"/>
+
+## Contact Us
+<img src="./readme_snips/contact.png"/>
+
+## Cart
+<img src="./readme_snips/cart.png"/>
+
 
 ## ✍️ Contributors
 
